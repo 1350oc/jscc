@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let BMIM,BMIJ;
+let markhigherbmi;
+   let jheight = 1.95
+    let jmass = 92
+    let mheight = 1.69;
+    let mmass= 78;
+   /* let mheight = 1.95
+    let mmass = 92
+    let jheight = 1.69;
+    let jmass= 78;*/
+        BMIM = mmass / mheight ** 2 ;
+          BMIJ = jmass / jheight ** 2 ;
+          console.log(BMIM,  BMIJ);
+          markhigherbmi=BMIM>BMIJ;
+          console.log(markhigherbmi);
+          
+          if(BMIM>BMIJ){
+            console.log(markhigherbmi);
+          }
+          else{
+            console.log("false");
+          }
+
+    </script>
+</body>
+</html>
